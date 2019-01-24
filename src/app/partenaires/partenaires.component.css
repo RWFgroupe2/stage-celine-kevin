@@ -5,6 +5,10 @@ div{
     background-color: white;
 }
 
+img{
+    padding: 1em;
+}
+
 .btn-primary{
     background-color: #38c8d3;
     border-color: #38c8d3;
@@ -12,5 +16,5 @@ div{
 
 .btn-primary:hover{
     background-color: #6e92c6;
-    border-color: #6e92c6;;
+    border-color: #6e92c6;
 }
