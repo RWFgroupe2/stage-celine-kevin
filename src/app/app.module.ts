@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { PartenairesComponent } from './partenaires/partenaires.component';
+import { CalendrierComponent } from './calendrier/calendrier.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PartenairesComponent } from './partenaires/partenaires.component';
     NavComponent,
     FooterComponent,
     AccueilComponent,
-    PartenairesComponent
+    PartenairesComponent,
+    CalendrierComponent
   ],
   imports: [
     BrowserModule,
