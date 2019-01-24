@@ -9,4 +9,12 @@ footer{
 
 .fab:hover{
     color: #6e92c6;
+    transform:rotateX(45deg);
+	/* grossissement */
+	-webkit-transform: scale(1.5) rotate(10deg);
+	-moz-transform: scale(1.5) rotate(10deg);
+	-o-transform: scale(1.5) rotate(10deg);
+	-ms-transform: scale(1.5) rotate(10deg);
+    transform: scale(1.5) rotate(10deg);
 }
+
