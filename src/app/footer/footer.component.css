@@ -1,7 +1,12 @@
 footer{
-    color: #191919;
+    color: inherit;
 }
 
 .socialmedias i{
     padding: 1em;
+    font-size: 1.5rem;
+}
+
+.fab:hover{
+    color: #6e92c6;
 }
