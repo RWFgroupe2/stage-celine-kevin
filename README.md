@@ -1,6 +1,10 @@
 # Cosmolab
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
 
 ## Development server
 

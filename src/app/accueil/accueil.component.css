@@ -1,0 +1,22 @@
+.background-image{
+    z-index: 1;
+    background-image: url('/assets/img/home.jpg');
+    background-repeat: no-repeat;
+    background-position : center;
+    height: 561px;
+}
+
+.background-color{
+    background-image: linear-gradient(to right, #3f1d74,#3f1d74,#ff99ec, #ff99ec);
+}
+/*
+.background1{
+    z-index:0;
+    background-color: #3f1d74;
+}
+
+.background2{
+    z-index:0;
+    background-color: #ff99ec;
+}
+*/

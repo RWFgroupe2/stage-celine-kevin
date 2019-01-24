@@ -18,10 +18,14 @@
  * BROWSER POLYFILLS
  */
 
+<<<<<<< HEAD
 /** IE9, IE10, IE11, and Chrome <55 requires all of the following polyfills.
  *  This also includes Android Emulators with older versions of Chrome and Google Search/Googlebot
  */
 
+=======
+/** IE9, IE10 and IE11 requires all of the following polyfills. **/
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
 // import 'core-js/es6/symbol';
 // import 'core-js/es6/object';
 // import 'core-js/es6/function';
@@ -37,6 +41,16 @@
 // import 'core-js/es6/weak-map';
 // import 'core-js/es6/set';
 
+<<<<<<< HEAD
+=======
+/**
+ * If the application will be indexed by Google Search, the following is required.
+ * Googlebot uses a renderer based on Chrome 41.
+ * https://developers.google.com/search/docs/guides/rendering
+ **/
+// import 'core-js/es6/array';
+
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 
@@ -47,12 +61,17 @@
  * Web Animations `@angular/platform-browser/animations`
  * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
  * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+<<<<<<< HEAD
  */
+=======
+ **/
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
 /**
  * By default, zone.js will patch all possible macroTask and DomEvents
  * user can disable parts of macroTask/DomEvents patch by setting following flags
+<<<<<<< HEAD
  * because those flags need to be set before `zone.js` being loaded, and webpack
  * will put import in the top of bundle, so user need to create a separate file
  * in this directory (for example: zone-flags.ts), and put the following flags
@@ -74,6 +93,20 @@
  *
  */
 
+=======
+ */
+
+ // (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ // (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+ // (window as any).__zone_symbol__BLACK_LISTED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+
+ /*
+ * in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+ * with the following flag, it will bypass `zone.js` patch for IE/Edge
+ */
+// (window as any).__Zone_enable_cross_context_check = true;
+
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */

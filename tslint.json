@@ -1,6 +1,10 @@
 {
   "rulesDirectory": [
+<<<<<<< HEAD
     "codelyzer"
+=======
+    "node_modules/codelyzer"
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
   ],
   "rules": {
     "arrow-return-shorthand": true,

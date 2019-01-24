@@ -9,7 +9,10 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+<<<<<<< HEAD
     "importHelpers": true,
+=======
+>>>>>>> cf0149d60d10b761a115a5001fa9029c5c0a8f6b
     "target": "es5",
     "typeRoots": [
       "node_modules/@types"
