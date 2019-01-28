@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light sticky-top">
   <!-- Logo -->
-  <a class="navbar-brand" href=""><img src="assets/img/logo.jpg" alt="Logo du Cosmolab"></a>
-
+  <a class="navbar-brand" routerLink="partenaires" routerLinkActive="active"><img src="assets/img/logo.jpg" alt="Logo du Cosmolab"></a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -13,18 +12,18 @@
     <ul class="navbar-nav">
 
       <li class="nav-item dropdown"> <!--Lien 1-->
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Le projet <span class="caret"></span></a>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" routerLink="prochaines-etapes" routerLinkActive="active">Le projet <span class="caret"></span></a>
         <ul class="dropdown-menu"> <!--Sous-lien 1-->
-          <li><a class="nav-link" href="#">Calendrier du projet</a></li>
+          <li><a class="nav-link" routerLink="calendrier" routerLinkActive="active">Calendrier du projet</a></li>
         </ul>
       </li> <!--Fin lien 1-->
 
       <li class="nav-item"> <!--Lien 2-->
-        <a class="nav-link" href="#">Le lieu</a>
+        <a class="nav-link" routerLink="proximite" routerLinkActive="active">Le lieu</a>
       </li>
 
       <li class="nav-item dropdown"> <!--Lien 3-->
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Les services <span class="caret"></span></a>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" routerLink="services" routerLinkActive="active">Les services <span class="caret"></span></a>
         <ul class="dropdown-menu">
             <li><a class="nav-link" href="#">0</a></li>
             <li><a class="nav-link" href="#">1</a></li>
@@ -33,11 +32,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">L'équipe</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" routerLink="equipe" routerLinkActive="active">L'équipe</a>
       </li>
 
     </ul> <!-- Fin des liens de navigation-->

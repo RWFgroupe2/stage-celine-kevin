@@ -1,0 +1,53 @@
+section{
+    background-image: linear-gradient(to right,#8717f9, #8717f9, #8315f0, #8315f0);
+}
+
+div{
+    background-image: url(src\assets\img\slide_pj.jpg);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position : center;
+}
+
+.fas{
+    position: absolute;
+    font-size: 3rem;
+    transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+        }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.fas:hover {
+    -webkit-animation: rotating 2s linear infinite;
+}
+
+.pt1{
+    left : 750px;
+    top : 290px;
+    color: #ee1eb4;
+}
+
+.pt2{
+    left : 950px;
+    top : 200px;
+    color: #37c7d2;
+}
+
+.pt3{
+    left : 900px;
+    top : 470px;
+    color: #f9b21a;
+}
+
+.pt4{
+    left : 640px;
+    top : 430px;
+    color: #4CDC4C;
+}

@@ -1,0 +1,29 @@
+section{
+    background-image: linear-gradient(to right,#8717f9, #8717f9, #8315f0, #8315f0);
+}
+
+div{
+    background-image: url(src\assets\img\slide_pj.jpg);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position : center;
+}
+
+i{
+    font-size: 5rem;
+    color: #FFFFFF;
+    position : relative;
+    float: right;
+    padding: 20px 20px;
+}
+
+i:hover{
+    color: #f9b21a;
+    transform:rotateX(45deg);
+    /* grossissement */
+	-webkit-transform: scale(1.5) rotate(10deg);
+	-moz-transform: scale(1.5) rotate(10deg);
+	-o-transform: scale(1.5) rotate(10deg);
+	-ms-transform: scale(1.5) rotate(10deg);
+    transform: scale(1.5) rotate(10deg);
+}
